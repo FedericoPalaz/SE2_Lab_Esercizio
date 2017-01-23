@@ -1,0 +1,25 @@
+{
+  "name": "se2_labesercizio",
+  "version": "1.0.0",
+  "description": "esercitazione",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FedericoPalaz/SE2_Lab_Esercizio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FedericoPalaz/SE2_Lab_Esercizio/issues"
+  },
+  "homepage": "https://github.com/FedericoPalaz/SE2_Lab_Esercizio#readme",
+  "dependencies": {
+    "bind": "^0.1.7",
+    "body-parser": "^1.16.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0"
+  }
+}

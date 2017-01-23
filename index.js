@@ -39,7 +39,7 @@ app.use('/invia', function(request, response)
       headers["Access-Control-Allow-Headers"] = "X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept";
       //answer
       headers["Content-Type"] = "text/html";
-		var trovato=0;
+	var trovato=0;
 	    //se i campi sono stati settati e non a null allora inserisco l'emploeey
 	    if(request.body.nome && request.body.cognome)
 	    {
@@ -59,7 +59,7 @@ app.use('/invia', function(request, response)
 	}
 	else
 	{
-		response.writeHead(400, headers);
+		response.statusCode=400;
 		response.render('pagina.ejs');
 		
 	}		

@@ -56,6 +56,12 @@ app.use('/invia', function(request, response)
 	{
 		response.writeHead(200, headers);
 		response.end("hello, Mr " + request.body.nome +" " +request.body.cognome);
+	}
+	else
+	{
+		response.writeHead(400, headers);
+		response.render('pagina.ejs');
+		
 	}		
 });
 
